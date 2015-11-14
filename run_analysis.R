@@ -1,8 +1,8 @@
 library(dplyr)
 
-##### Unzip raw data and read tables
+##### Download and unzip raw data and read tables
 
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "getdata_projectfiles_UCI HAR Dataset.zip")
+# download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "getdata_projectfiles_UCI HAR Dataset.zip")
 
 unzip("getdata_projectfiles_UCI HAR Dataset.zip")
 

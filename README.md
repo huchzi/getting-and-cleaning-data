@@ -3,7 +3,7 @@ Repository for the course project for "Getting and Cleaning Data".
 
 ## How the script "run_analysis.R" works
 The script consists of four parts:
-- Unzip the raw data and read the tables into R
+- Download and unzip the raw data and read the tables into R
 - Merge the tables into data frames separately for the training and test sets
 - Create the first, tidy dataset
 - Create the second dataset with the average of each variable for each activity and each subject
