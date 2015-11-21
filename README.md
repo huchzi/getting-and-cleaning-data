@@ -5,6 +5,7 @@ This repo contains the following files:
 - result.txt: the tidy data set
 - run_analysis: the skript that creates the tidy data set from the raw data
 - CodeBook.md: the codebook describing the data and the variables
+- getting-and-cleaning-data.Rproj: the data for the Rstudio-project
 
 ## How to run the script "run_analysis.R"
 
