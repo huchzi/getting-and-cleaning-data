@@ -1,6 +1,15 @@
 # getting-and-cleaning-data
 Repository for the course project for "Getting and Cleaning Data".
 
+This repo contains the following files:
+- result.txt: the tidy data set
+- run_analysis: the skript that creates the tidy data set from the raw data
+- CodeBook.md: the codebook describing the data and the variables
+
+## How to run the script "run_analysis.R"
+
+The skript does not assume that you have the raw data in your working directory. It will download and unzip the raw data automatically. Please comment these lines if you want to copy the raw data manually (downloading may take a while).
+
 ## How the script "run_analysis.R" works
 The script consists of four parts:
 - Download and unzip the raw data and read the tables into R
