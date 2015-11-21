@@ -26,72 +26,72 @@ The skript that can reproduce the transformations is called run_analysis.R and c
 
 The mean values of all variables for the X, Y and Z-axis respectively:
 - time domain body acceleration signals
--- tBodyAcc.mean...X
--- tBodyAcc.mean...Y
--- tBodyAcc.mean...Z
++ tBodyAcc.mean...X
++ tBodyAcc.mean...Y
++ tBodyAcc.mean...Z
 - time domain gravity accerleration signals
--- tGravityAcc.mean...X
--- tGravityAcc.mean...Y
--- tGravityAcc.mean...Z
++ tGravityAcc.mean...X
++ tGravityAcc.mean...Y
++ tGravityAcc.mean...Z
 - time domain body acceleration jerk signals
--- tBodyAccJerk.mean...X
--- tBodyAccJerk.mean...Y
--- tBodyAccJerk.mean...Z
++ tBodyAccJerk.mean...X
++ tBodyAccJerk.mean...Y
++ tBodyAccJerk.mean...Z
 - time domain body angular velocity signals
--- tBodyGyro.mean...X
--- tBodyGyro.mean...Y
--- tBodyGyro.mean...Z
++ tBodyGyro.mean...X
++ tBodyGyro.mean...Y
++ tBodyGyro.mean...Z
 - time domain body angular velocity jerk signals
--- tBodyGyroJerk.mean...X
--- tBodyGyroJerk.mean...Y
--- tBodyGyroJerk.mean...Z
++ tBodyGyroJerk.mean...X
++ tBodyGyroJerk.mean...Y
++ tBodyGyroJerk.mean...Z
 - magnitude of these three dimensional signals
--- tBodyAccMag.mean..
--- tGravityAccMag.mean..
--- tBodyAccJerkMag.mean..
--- tBodyGyroMag.mean..
--- tBodyGyroJerkMag.mean..
++ tBodyAccMag.mean..
++ tGravityAccMag.mean..
++ tBodyAccJerkMag.mean..
++ tBodyGyroMag.mean..
++ tBodyGyroJerkMag.mean..
 - frequency domain body acceleration signals
--- fBodyAcc.mean...X
--- fBodyAcc.mean...Y
--- fBodyAcc.mean...Z
++ fBodyAcc.mean...X
++ fBodyAcc.mean...Y
++ fBodyAcc.mean...Z
 - frequency domain body acceleration signals: weighted average of the frequency components to obtain a mean frequency
--- fBodyAcc.meanFreq...X
--- fBodyAcc.meanFreq...Y
--- fBodyAcc.meanFreq...Z
++ fBodyAcc.meanFreq...X
++ fBodyAcc.meanFreq...Y
++ fBodyAcc.meanFreq...Z
 - frequency domain body acceleration jerk signals
--- fBodyAccJerk.mean...X
--- fBodyAccJerk.mean...Y
--- fBodyAccJerk.mean...Z
++ fBodyAccJerk.mean...X
++ fBodyAccJerk.mean...Y
++ fBodyAccJerk.mean...Z
 - frequency domain body acceleration jerk signals: weighted average of the frequency components to obtain a mean frequency
--- fBodyAccJerk.meanFreq...X
--- fBodyAccJerk.meanFreq...Y
--- fBodyAccJerk.meanFreq...Z
++ fBodyAccJerk.meanFreq...X
++ fBodyAccJerk.meanFreq...Y
++ fBodyAccJerk.meanFreq...Z
 - frequency domain body angular velocity signals
--- fBodyGyro.mean...X
--- fBodyGyro.mean...Y
--- fBodyGyro.mean...Z
++ fBodyGyro.mean...X
++ fBodyGyro.mean...Y
++ fBodyGyro.mean...Z
 - frequency domain body angular velocity signals: weighted average of the frequency components to obtain a mean frequency
--- fBodyGyro.meanFreq...X
--- fBodyGyro.meanFreq...Y
--- fBodyGyro.meanFreq...Z
++ fBodyGyro.meanFreq...X
++ fBodyGyro.meanFreq...Y
++ fBodyGyro.meanFreq...Z
 - magnitude of these three dimensional signals
--- fBodyAccMag.mean..
--- fBodyAccMag.meanFreq..
--- fBodyBodyAccJerkMag.mean..
--- fBodyBodyAccJerkMag.meanFreq..
--- fBodyBodyGyroMag.mean..
--- fBodyBodyGyroMag.meanFreq..
--- fBodyBodyGyroJerkMag.mean..
--- fBodyBodyGyroJerkMag.meanFreq..
++ fBodyAccMag.mean..
++ fBodyAccMag.meanFreq..
++ fBodyBodyAccJerkMag.mean..
++ fBodyBodyAccJerkMag.meanFreq..
++ fBodyBodyGyroMag.mean..
++ fBodyBodyGyroMag.meanFreq..
++ fBodyBodyGyroJerkMag.mean..
++ fBodyBodyGyroJerkMag.meanFreq..
 - angles between two vectors named above
--- angle.tBodyAccMean.gravity.
--- angle.tBodyAccJerkMean..gravityMean.
--- angle.tBodyGyroMean.gravityMean.
--- angle.tBodyGyroJerkMean.gravityMean.
--- angle.X.gravityMean.
--- angle.Y.gravityMean.
--- angle.Z.gravityMean.
++ angle.tBodyAccMean.gravity.
++ angle.tBodyAccJerkMean..gravityMean.
++ angle.tBodyGyroMean.gravityMean.
++ angle.tBodyGyroJerkMean.gravityMean.
++ angle.X.gravityMean.
++ angle.Y.gravityMean.
++ angle.Z.gravityMean.
 The standard deviation of all variables for the X, Y and Z-axis respectively: names similar to mean values
 - tBodyAcc.std...X
 - tBodyAcc.std...Y
